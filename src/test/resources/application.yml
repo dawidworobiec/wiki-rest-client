@@ -1,0 +1,9 @@
+http-client:
+  connectionTimeout: 200
+  readTimeout: 400
+
+wiki:
+  http-client:
+    endpoint: "http://localhost:8090/w/api.php" # wiremock internal url
+  service:
+    footballClubRegex: "(football club)|(futbol club)" # It is case insensitive regex pattern

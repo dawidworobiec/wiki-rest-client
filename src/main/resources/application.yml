@@ -1,0 +1,9 @@
+http-client:
+  connectionTimeout: 200
+  readTimeout: 400
+
+wiki:
+  http-client:
+    endpoint: "https://en.wikipedia.org/w/api.php"
+  service:
+    footballClubRegex: "(football club)|(futbol club)" # It is case insensitive regex pattern
